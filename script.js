@@ -6,7 +6,7 @@ var person={
     return this.firstname + " " + this.lastname;
    }
 };
-document.getElementById("demo").innerHTML=person.getinfo();/
+document.getElementById("demo").innerHTML=person.getinfo();
 
 var person ={
    name: "Ramesh",
