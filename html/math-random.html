@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Functions Example</title>
+  <link rel="stylesheet" href="/js/css/math-random.css"> <!-- Link to CSS -->
+  <script src="/js/javascript/math-random.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body>
+  <h1>Math Functions in JavaScript</h1>
+
+  <section>
+    <h2>Generate a Random Number</h2>
+    <label for="minValue">Minimum Value:</label>
+    <input type="number" id="minValue" placeholder="Enter minimum" />
+    <br />
+    <label for="maxValue">Maximum Value:</label>
+    <input type="number" id="maxValue" placeholder="Enter maximum" />
+    <br />
+    <button onclick="generateRandomNumber()">Generate Random Number</button>
+    <div id="randomResult" class="output-box">Random Number: </div>
+  </section>
+
+  <section>
+    <h2>Math.ceil()</h2>
+    <label for="ceilValue">Enter a number:</label>
+    <input type="number" id="ceilValue" step="any" placeholder="Enter number" />
+    <button onclick="demonstrateCeil()">Apply Math.ceil()</button>
+    <div id="ceilResult" class="output-box">Math.ceil result: </div>
+  </section>
+
+  <section>
+    <h2>Math.floor()</h2>
+    <label for="floorValue">Enter a number:</label>
+    <input type="number" id="floorValue" step="any" placeholder="Enter number" />
+    <button onclick="demonstrateFloor()">Apply Math.floor()</button>
+    <div id="floorResult" class="output-box">Math.floor result: </div>
+  </section>
+
+  <section>
+    <h2>Math.round()</h2>
+    <label for="roundValue">Enter a number:</label>
+    <input type="number" id="roundValue" step="any" placeholder="Enter number" />
+    <button onclick="demonstrateRound()">Apply Math.round()</button>
+    <div id="roundResult" class="output-box">Math.round result: </div>
+  </section>
+
+  <section>
+    <h2>Math.abs()</h2>
+    <label for="absValue">Enter a number:</label>
+    <input type="number" id="absValue" step="any" placeholder="Enter number" />
+    <button onclick="demonstrateAbs()">Apply Math.abs()</button>
+    <div id="absResult" class="output-box">Math.abs result: </div>
+  </section>
+</body>
+</html>
