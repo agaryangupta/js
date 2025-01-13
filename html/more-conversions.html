@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversions in JavaScript</title>
+  <link rel="stylesheet" href="/js/css/more-conversions.css">
+  <script src="/js/javascript/more-conversions.js" defer></script>
+</head>
+<body>
+  <h1>Conversions in JavaScript</h1>
+  <section>
+    <h2>Number to String</h2>
+    <input type="number" id="numberValue" placeholder="Enter a number" />
+    <button onclick="convertNumberToString()">Convert</button>
+    <div id="numberToStringResult">Result:</div>
+  </section>
+  <section>
+    <h2>String to Number</h2>
+    <input type="text" id="stringValue" placeholder="Enter a string" />
+    <button onclick="convertStringToNumber()">Convert</button>
+    <div id="stringToNumberResult">Result:</div>
+  </section>
+  <section>
+    <h2>Boolean to String</h2>
+    <input type="checkbox" id="booleanValue" />
+    <button onclick="convertBooleanToString()">Convert</button>
+    <div id="booleanToStringResult">Result:</div>
+  </section>
+  <section>
+    <h2>String to Boolean</h2>
+    <input type="text" id="stringToBooleanValue" placeholder="Enter 'true' or 'false'" />
+    <button onclick="convertStringToBoolean()">Convert</button>
+    <div id="stringToBooleanResult">Result:</div>
+  </section>
+  <section>
+    <h2>Number to Boolean</h2>
+    <input type="number" id="numberToBooleanValue" placeholder="Enter a number" />
+    <button onclick="convertNumberToBoolean()">Convert</button>
+    <div id="numberToBooleanResult">Result:</div>
+  </section>
+  <section>
+    <h2>Boolean to Number</h2>
+    <input type="checkbox" id="booleanToNumberValue" />
+    <button onclick="convertBooleanToNumber()">Convert</button>
+    <div id="booleanToNumberResult">Result:</div>
+  </section>
+  <section>
+    <h2>Date to String</h2>
+    <input type="date" id="dateValue" />
+    <button onclick="convertDateToString()">Convert</button>
+    <div id="dateToStringResult">Result:</div>
+  </section>
+  <section>
+    <h2>String to Date</h2>
+    <input type="text" id="stringToDateValue" placeholder="Enter a date string" />
+    <button onclick="convertStringToDate()">Convert</button>
+    <div id="stringToDateResult">Result:</div>
+  </section>
+  <section>
+    <h2>Character to ASCII (Number to Number)</h2>
+    <input type="text" id="charToASCIIValue" maxlength="1" placeholder="Enter a character" />
+    <button onclick="convertCharacterToASCII()">Convert</button>
+    <div id="charToASCIIResult">Result:</div>
+  </section>
+  <section>
+    <h2>Array to String</h2>
+    <input type="text" id="arrayValue" placeholder="Enter values separated by commas" />
+    <button onclick="convertArrayToString()">Convert</button>
+    <div id="arrayToStringResult">Result:</div>
+  </section>
+  <section>
+    <h2>String to Array</h2>
+    <input type="text" id="stringToArrayValue" placeholder="Enter a string separated by commas" />
+    <button onclick="convertStringToArray()">Convert</button>
+    <div id="stringToArrayResult">Result:</div>
+  </section>
+</body>
+</html>
